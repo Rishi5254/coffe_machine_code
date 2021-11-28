@@ -74,7 +74,7 @@ def make_coffee(drink_name, order_ingredients):
 is_on = True
 
 while is_on:
-    choice = input("​What would you like? (espresso/latte/cappuccino): ")
+    choice = input("Type 'off' of to swithoff coffee Machine\nType 'report' to see available resourses\nWhat would you like? (espresso $1.5/latte$2.5/cappuccino$3.0): ")
     if choice == "off":
         is_on = False
     elif choice == "report":
